@@ -1,0 +1,134 @@
+.body{
+    background-image: url("triagle.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 10px 10px;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h3{
+    color:black;
+    font-size: 30;
+    margin-top: -50;
+}
+h1{
+    font-size: 60;
+}
+/* .header{
+    background-color: lightblue;
+    padding: 20px;
+    padding-bottom: 100px;
+} */
+.awards{
+    width: 500px;
+    height:100px;
+    padding-left:25px;position: relative;
+    bottom:-120;
+    
+}
+/* contact information */
+.info{
+    position: relative;;
+    bottom: -60px;
+    padding-left: 25px;
+}
+.skills{
+    position: relative;;
+    bottom: -45;
+    padding-left: 25px;
+}
+.education{
+    width: 500px;
+    height:100px;
+    padding-left: 40%;
+    position: relative;
+    bottom:-530;
+}
+/* dividing line */
+.rectangle1{
+    width: 3px;
+    height: 1000px;
+    background-color: rgb(207, 169, 73);
+    margin-left: 35%;
+    margin-top: -80%;
+    position: relative;
+}
+.rectangle2{
+    width: 3px;
+    height: 450px;
+    background-color: maroon;
+    margin-left: 33%;
+    margin-top: -70%;
+    position: relative;
+}
+.rectangle3{
+    width: 3px;
+    height: 350px;
+    background-color: teal;
+    margin-left: 38%;
+    margin-top: -10%;
+    position: relative;
+/* boarder around headshot
+  /* .circle1{
+      border-radius: 50%;
+      width:250px;
+      height:250px;
+      border: 3px solid orangered;
+      margin-top: -85%;
+      margin-left: 130px;
+      position: absolute */ 
+
+  }  
+  /* img{
+      position: absolute;
+      top: 10px;
+      left:130px; */
+  
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.experience{
+    width: 500px;
+    height:100px;
+    padding-left: 40%;
+    position: relative;
+    bottom:90;
+}
+/* background of resume */
+.header {
+    padding-left: 59%
+}
+
+.button-one {
+    background: #dfbf58;
+}
+.button-two {
+    background: #8b473e;
+}
+.button-three {
+    background: #33a59a;
+}
+.button-one,
+.button-two,
+.button-three {
+    color: #1d1d1d;
+    display: inline-block;
+    border-radius: 0;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+}
+.button-one:hover,
+.button-two:hover,
+.button-three:hover {
+    background: #fff;
+}
